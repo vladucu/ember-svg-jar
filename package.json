@@ -78,6 +78,9 @@
     "configPath": "tests/dummy/config",
     "versionCompatibility": {
       "ember": ">=1.10.0"
-    }
+    },
+    "after": [
+      "ember-cli-node-assets"
+    ]
   }
 }
